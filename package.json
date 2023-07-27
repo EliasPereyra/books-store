@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "panda": "pnpm panda --watch",
     "prepare": "panda codegen"
   },
   "dependencies": {
