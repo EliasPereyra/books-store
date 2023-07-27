@@ -1,12 +1,14 @@
 {
   "name": "books-store",
+  "author": "EliasPereyra",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "panda codegen"
   },
   "dependencies": {
     "@types/node": "20.4.5",
